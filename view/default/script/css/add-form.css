@@ -1,0 +1,170 @@
+
+#add-forms {
+	width: 870px;
+	display: inline-block;
+	padding: 15px;
+}
+/* form-left-block */
+.form-left-block{
+	width: 220px;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+#add-forms select {
+	width: 516px;
+}
+
+#select-jenre {
+float: left;
+
+}
+.button{
+	background: white;
+	float: left;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.adds-poster {
+	position: relative;
+	
+	width: 220px;
+	height: 310px;
+	background-color: white;
+	/*border: 2px solid green;*/
+	border-radius: 3px;
+	cursor: default;
+	overflow: hidden;
+}
+.adds-poster.adds-poster-errors {
+	border-color: red;
+}
+.adds-poster b{
+	text-align: center;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	font-size: 16px;
+	width: 220px;
+	color: #adadad;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#output{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#output img{
+	width: 220px;
+	height: 310px;
+}
+
+.adds-poster span.adds-link {
+    z-index: 100;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: green;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.adds-poster span.dels-link {
+    z-index: 100;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background-color: red;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* form-right-block */
+.form-right-block{
+	width: 635px;
+
+}
+
+#add-forms .tabs {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#add-forms .tabs p.tabs-l,#add-forms .tabs p.tabs-r{
+	line-height: 30px;
+}
+#add-forms .tabs p.tabs-l{
+	width: 120px;
+}
+#add-forms .tabs p.tabs-r{
+	width: 515px;
+}
+#add-forms .tabs p.tabs-r input,#add-forms .tabs p.tabs-r textarea {
+	width: 500px;
+	max-width: 500px;
+	font-size: 14px;
+}
+
+#add-forms .tabs p.tabs-r textarea{
+	min-height: 150px;
+	min-width: 500px;
+	
+	line-height: 18px;
+}
+
+#add-forms .tabs p.tabs-errors{
+	
+	color: red;
+	margin-top: 5px;
+	margin-left: 120px;
+}
+
+#add-forms .tabs ul.tabs-errors-ul{
+	
+	color: red;
+	margin-top: 5px;
+	margin-left: 120px;
+
+	border: 1px solid #ff000080;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #ff00001a;
+	width: 493px;
+}
+#add-forms .tabs ul.tabs-errors-ul li i{
+	float: left;
+}
+#add-forms .tabs p.tabs-errors i,#add-forms .tabs ul.tabs-errors-ul li i{
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/error-small.png);
+	background-repeat: no-repeat;
+	background-size: 16px;
+}
+/**/
+span.add-errors{
+	margin-left: 120px;
+	display: block;
+	color: red;
+}
+
+section.submit_block{
+	display: inline-block;
+	width: 870px;
+	padding: 15px;
+	background-color: white;
+}

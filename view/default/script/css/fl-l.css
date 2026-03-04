@@ -1,0 +1,46 @@
+.fl-l,
+.form-left-block,
+.form-right-block,
+.tabs,
+.tabs p.tabs-l,
+.tabs p.tabs-r,
+.tabs p.tabs-errors,
+.tabs p.tabs-errors i{float: left;}
+
+/*
+function session_echoo($param1,$param2){
+
+    if(isset($_SESSION[$param1][$param2])){
+
+      echo "<p class='tabs-errors'><i></i>"; 
+      echo $_SESSION[$param1][$param2];
+      echo "</p>"; 
+
+      unset($_SESSION[$param1][$param2]);
+    }
+
+  }
+
+<?PHP
+global $connection;
+$query = "SELECT id, name FROM country ORDER BY name ASC";
+$result = mysqli_query($connection, $query);
+$num = mysqli_num_rows($result);
+
+if ($num >= 1) {
+  echo "<div class='clear-b'></div>";
+  echo "<div class='tabs'>";
+  echo "<p class='tabs-l'>Страна: <span class='obiz'>*</span></p>";
+  echo "<p class='tabs-r'><select class='add' size='8' name='country[]' multiple >";
+  for ($i = 1; $i <= $num; $i++)
+    {
+    $data = mysqli_fetch_array($result);
+    echo "<option type=\"checkbox\" value=\"".$data['id']."\"> ".$data['name']."</option>";
+    }
+  }
+  echo "</p>
+    </div>";
+
+?>
+
+*/

@@ -1,0 +1,1 @@
+<?php defined("APP") or die ("Access denied");

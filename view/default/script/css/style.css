@@ -1,0 +1,428 @@
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/ubuntu */
+@import "http://fonts.fontstorage.com/import/ubuntu.css";
+/*
+	Ubuntu, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700, 700 italic
+*/
+
+.block-title {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	color: #333;
+}
+
+/*.error {
+   color: #ff0000;
+   font-size: 12px;
+   margin-top: 5px;
+   margin-bottom: 0;
+}
+ 
+.inputTxtError {
+   border: 1px solid #ff0000;
+   color: #0e0e0e;
+}*/
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'ubuntu',arial;
+	outline: none;
+	/*-moz-user-select: none;*/
+	/*-webkit-user-select: none;*/
+	/*-o-user-select: none;*/
+}
+
+#dialog{display: none;}
+
+span.titles{
+	margin-bottom: 2px;
+	font-size: 14px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	display: block;
+}
+
+/* input */
+
+.btn {
+	
+	padding: 6px 10px;
+
+}
+
+
+
+input[type='text'].error,input[type='password'].error,textarea.error{
+	
+	border-color: red;
+
+}
+input[type='text'].success,input[type='password'].success,textarea.success{
+	
+	border-color: green;
+
+}
+
+.obiz{color:red;}
+
+select.add{
+	width: 226px
+}
+
+input[type='text'],input[type='password'] {
+	
+	/*line-height: 30px;*/
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding: 0;
+	line-height: 30px;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-size: 16px;
+
+}
+textarea{
+	padding: 7px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+
+select{
+	padding: 7px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+/* input */
+
+body{
+
+	background-image: url(../img/background_69.jpg);
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: center top;
+
+}
+
+.body-block{
+  overflow: hidden;
+  margin-right: 16px;
+}
+
+#wrapper {
+	
+	margin: 50px auto;
+	margin-top: 250px;
+	width: 900px;
+	height: auto;
+	background-color: #f2f2f2;
+	/*min-height: 1000px;*/
+	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,.5);
+	-o-box-shadow: 0px 1px 1px rgba(0,0,0,.5);
+	-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.5);
+
+}
+
+section.conntent {
+	width: 900px;
+	display: inline-block;
+}
+/* header */
+header{
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 50px;
+	height: 50px;
+	background-color: #333;
+	color: white;
+	font-size: 16px;
+	display: block;
+	width: 870px;
+	z-index: 101;
+}
+
+header .header-left {
+	float: left;
+	margin-right: 30px;
+}
+
+header .header-right {
+	float: right;
+	margin-left: 30px;
+}
+
+header .logo a{
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.header-category li{
+	float: left;
+	margin-right: 15px;
+}
+.header-category li a{
+	color: white;
+	display: block;
+}
+/* header */
+/* #content */
+#content{
+	padding: 15px;
+	width: 885px;
+}
+
+#content-homes{
+	padding: 15px;
+	width: 870px;
+}
+/* #content */
+
+/* short-films */
+
+.short-films{
+	width: 206px;
+	height: 350px;
+	float: left;
+	margin-right: 15px;
+	/*background-color: white;*/
+	display: block;
+	outline: 1px solid #333;
+}
+.short-films img{
+	width: 205px;
+}
+
+.short-films .year,
+.short-films .name{
+	padding-left: 5px;
+}
+
+/* short-films */
+
+/* pagination */
+.pagination{
+	text-align: left;
+	margin: 20px 15px 20px 15px;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+}
+.pagination a{
+	background-color: #333;
+	color: white;
+	margin-right: 5px;
+	padding: 5px 10px 5px 10px;
+	border-radius: 3px;
+}
+.pagination a.nav-active{
+	background-color: #ddd;
+	color: #333;
+	font-weight: bold;
+	text-decoration: underline;
+}
+/* pagination */
+.clear-b{
+	clear: both;
+}
+
+/* adding */
+.adding-group-link li a{
+
+
+}
+
+/* adding */
+/* aads */
+
+.add-head {
+	width: 50%;
+}
+
+.add-head-left{
+	float: left;
+}
+.add-head-right{
+	float: right;
+}
+
+.add-head input{
+	width: 95%;
+}
+
+.add-left {
+	
+	float: left;
+	margin-top: 10px;
+	width: 200px;
+
+}
+
+.add-right {
+	width: 670px;
+	float: left;
+	margin-top: 10px;
+}
+
+#add-poster {
+	
+	width: 180px;
+	height: 260px;
+	border: 1px solid #ddd;
+	background-color: white;
+	background-image: url(../img/no-photo.jpg);
+	background-repeat: no-repeat;
+	background-position: 30px 40px;
+	cursor: pointer;
+
+}
+
+#add-poster span {
+	
+	color: #ababab;
+	margin-top: 160px;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.add-tabs {
+	float: left;
+	display: block;
+	margin-bottom: 5px;
+}
+.add-tabs span {
+	width: 80px;
+	float: left;
+	line-height: 35px;
+}
+.add-tabs input{
+	width: 568px;
+}
+
+.add-tabs span{
+	font-size: 14px;
+}
+
+.add-tabs textarea{
+	width: 568px;
+	max-width: 568px;
+	min-height: 70px;
+}
+
+.add-tabs select{
+	width: 585px;
+	min-height: 70px;
+}
+
+#year{
+	width: 36px;
+}
+
+.submits {
+	
+	width: 830px;
+	float: left;
+	background-color: white;
+	padding: 15px;
+	border: 1px solid #ddd;
+
+}
+
+/* aads */
+
+
+header .header-right a {
+    color: white;
+    display: block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.reg > p {
+	margin-bottom: 10px;
+	line-height: 30px;
+	text-align: left;
+	float: left;
+	width: 100%;
+}
+
+.reg > p > label {
+	
+	width: 80px;
+	float: left;
+
+}
+
+.reg > p > span {
+	
+	/*margin-left: 80px;*/
+	float: left;
+	font-size: 14px;
+	line-height: 14px;
+	padding-top: 5px;
+
+}
+
+.reg > p > span.error{
+	color: red
+}
+
+
+.reg-check,
+.reg-cross,
+.reg-loader{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+
+.reg-check {
+	background: url(../img/check.png);
+}
+
+.reg-cross {
+	background: url(../img/cross.png);
+}
+
+.reg-loader {
+	background: url(../img/loader2.gif);
+}
+
+
+/**/
+.error ul li{
+	color: red;
+	/*border: 1px solid red;*/
+}
+
+
+
+
+
+
+
+
+/* view */
+
+p.poster img{
+	width: 230px;
+}
+.views-left {
+	width: 250px;
+	float: left;
+}
+.views-right {
+	float: left;
+}
+
+.views-right p{
+	float: left;
+}
+
+/* view */

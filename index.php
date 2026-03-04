@@ -1,0 +1,1 @@
+<?php define("APP", TRUE);require_once 'engine/core/run.php';

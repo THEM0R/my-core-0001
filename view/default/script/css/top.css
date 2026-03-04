@@ -1,0 +1,62 @@
+.main .top{
+	float: left;
+	width: 900px;
+	margin: 15px 0px 15px 0px;
+	display: inline-block;
+}
+
+.main .top article{
+	width: 95.7px;
+	float: left;
+	margin-left: 15px;
+}
+.main .top article .poster{
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+.main .top article .poster a.no-image{
+	display: block;
+	background-color: #ddd;
+	text-align: center;
+	line-height: 130px;
+	color: #333;
+	font-weight: bold;
+}
+
+.main .top article .poster,
+.main .top article .poster img,
+.main .top article .poster a.no-image{
+	width: 95.7px;
+	height: 130px;
+}
+.main .top article .info{
+	margin: 5px 0;
+	cursor: default;
+}
+.main .top article .info .title:hover,.main .top article .info .title:hover a{
+	color: #777;
+}
+
+.main .top article .info .title,.main .top article .info .title a{
+	color: #333;
+}
+.main .top article .info .title,.main .top article .info .data{
+	margin: 0px 0;
+	height: 20px;
+	overflow: hidden;
+}
+
+.main .top article .info .title{
+
+	font-size: 14px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.main .top article .info .data{
+	
+	line-height: 18px;
+	font-size: 12px;
+	color: #a6a6a6;
+}

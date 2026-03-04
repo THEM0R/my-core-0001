@@ -1,0 +1,30 @@
+/* msg */
+.msg {
+	
+	margin: 20px 15px;
+	min-height: 55px;
+	line-height: 55px;
+	border: 1px solid;
+	border-radius: 3px;
+  padding-left: 55px;
+
+}
+
+.msg.good {
+
+  background: #effaed url(../img/msg_good.png) no-repeat 12px 12px;
+  border-color: #afd4a9;
+  color: #8abf77;
+  font-size: 16px;
+
+}
+
+.msg.error {
+
+  background: #ffefe9 url(../img/msg_error.png) no-repeat 12px 12px;
+  border-color: #f2ab99;
+  color: #eb6a6c;
+  font-size: 16px;
+
+}
+/* msg */

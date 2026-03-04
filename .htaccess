@@ -1,0 +1,12 @@
+# кодировка
+AddDefaultCharset utf-8
+# отключение волшебных кавычек
+php_flag magic_quotes_gpc Off
+Options -Indexes
+# RewriteEngine
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php
+
+

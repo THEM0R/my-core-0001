@@ -1,0 +1,28 @@
+section.sort{
+	display: inline-block;
+	padding: 15px;
+	/*width: 96.7%;*/
+	width: 870px;
+	background-color: #eee;
+	border-bottom: 1px solid #ddd;
+}
+
+section.sort p{
+	float: left;
+	margin-right: 20px;
+}
+
+section.sort .right{
+	float: right;
+	font-size: 14px;
+}
+section.sort .left{
+	float: left;
+	font-size: 14px;
+}
+section.sort .right select{
+	padding: 2px;
+}
+section.sort .right option{
+	padding: 4px;
+}

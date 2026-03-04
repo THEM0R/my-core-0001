@@ -1,0 +1,62 @@
+.main .articles{
+	float: left;
+	width: 900px;
+	margin: 15px 0px 15px 0px;
+	display: inline-block;
+}
+
+.main .articles article{
+	width: 162px;
+	float: left;
+	margin-left: 15px;
+}
+.main .articles article .poster{
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+.main .articles article .poster a.no-image{
+	display: block;
+	background-color: #ddd;
+	text-align: center;
+	line-height: 235px;
+	color: #333;
+	font-weight: bold;
+}
+
+.main .articles article .poster,
+.main .articles article .poster img,
+.main .articles article .poster a.no-image{
+	width: 162px;
+	height: 235px;
+}
+.main .articles article .info{
+	margin: 5px 0;
+	cursor: default;
+}
+.main .articles article .info .title:hover,.main .articles article .info .title:hover a{
+	color: #777;
+}
+
+.main .articles article .info .title,.main .articles article .info .title a{
+	color: #333;
+}
+.main .articles article .info .title,.main .articles article .info .data{
+	margin: 2px 0;
+	height: 20px;
+	overflow: hidden;
+}
+
+.main .articles article .info .title{
+
+	font-size: 16px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.main .articles article .info .data{
+	
+	line-height: 18px;
+	font-size: 14px;
+	color: #a6a6a6;
+}

@@ -1,0 +1,18 @@
+.login.modal{
+	width: 260px;
+	padding: 30px;
+}
+
+.login.modal h2{
+	padding-bottom: 20px;
+}
+
+.login.modal input{
+	margin-bottom: 10px;
+}
+
+.login.modal a{
+	text-align: center;
+	color: #333;
+	text-decoration: underline;
+}

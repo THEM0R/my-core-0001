@@ -1,0 +1,94 @@
+.conntent.view{
+	width: 900px;
+	display: inline-block;
+}
+.view .articles{
+	width: 885px;
+	float: left;
+	padding: 25px 0px 25px 15px;
+}
+.view .articles section{
+	float: left;
+	
+}
+.view .articles .left{
+	width: 28.5%
+}
+
+.view .articles .left .poster,.view .articles .left .poster img{
+	width: 230px;
+}
+
+.view .articles .left .poster{
+	overflow: hidden;
+	width: 230px;
+	height: 335px;
+	border-radius: 4px;
+}
+
+.view .articles .left .poster .no-image{
+	background-color: white;
+	border: 2px solid #adadad;
+	font-size: 18px;
+	color: white;
+	width: 226px;
+	height: 331px;
+	line-height: 460px;
+	color: #adadad;
+	text-align: center;
+	border-radius: 4px;
+	/*font-weight: bold;*/
+	background-image: url(../img/no-poster.png);
+  background-repeat: no-repeat;
+  background-position: center 60px;
+  background-size: 180px;
+  cursor: default;
+}
+/* articles right */
+.view .articles .right{
+	width: 71.5%
+}
+
+.view .articles .tab{
+	width: 100%;
+	float: left;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.view .articles .tab h2{
+	font-size: 24px;
+	margin-bottom: 2px;
+	/*font-weight: normal;*/
+}
+.view .articles .tab h4{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.view .articles .tab .left{
+	width: 17%;
+	float: left;
+}
+.view .articles .tab .right{
+	float: left;
+	width: 83%;
+}
+
+.view .articles .tab a{
+	float: left;
+	color: #e87878;
+	text-decoration: underline;
+	margin-right: 10px;
+}
+
+.view .articles p.screens{
+	max-height: 73px;
+	overflow: hidden;
+	/*margin-left: 17%;*/
+}
+.view .articles p.screens img{
+	width: 111px;
+	float: left;
+	margin-right: 15px;
+}
+/* articles right */
